@@ -3,8 +3,9 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import { useEffect, useState } from 'react';
+
 // import { usePathname, useRouter } from 'next/navigation';
-import { useTranslations } from 'next-intl';
+// import { useTranslations } from 'next-intl';
 
 // import { NAV_LINKS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
