@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+// import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
-import { NAV_LINKS } from '@/lib/constants';
-import { cn } from '@/lib/utils';
+// import { NAV_LINKS } from '@/lib/constants';
+// import { cn } from '@/lib/utils';
 
 import BaseImage from '../image/BaseImage';
 import LocaleSwitcher from '../LocaleSwitcher';
@@ -15,14 +15,14 @@ import NavigationDrawer from './NavigationDrawer';
 
 export default function Navigation() {
   const t = useTranslations('Navigation');
-  const pathname = usePathname();
+  // const pathname = usePathname();
 
   const [open, setOpen] = useState(false);
 
-  const NavLinks = NAV_LINKS.map((item) => ({
-    ...item,
-    label: t(`${item.code}`),
-  }));
+  // const NavLinks = NAV_LINKS.map((item) => ({
+  //   ...item,
+  //   label: t(`${item.code}`),
+  // }));
 
   return (
     <>
@@ -50,7 +50,7 @@ export default function Navigation() {
           </div>
           {/* pc */}
           <div className='ml-auto flex h-full items-center gap-x-[46px]'>
-            <ul className='hidden h-full flex-1 capitalize lg:flex lg:gap-x-12'>
+            {/* <ul className='hidden h-full flex-1 capitalize lg:flex lg:gap-x-12'>
               {NavLinks.map((item) => (
                 <Link key={item.code} href={item.href} title={item.code}>
                   <li
@@ -64,7 +64,7 @@ export default function Navigation() {
                   </li>
                 </Link>
               ))}
-            </ul>
+            </ul> */}
             <div className='flex items-center gap-x-3'>
               <LocaleSwitcher />
             </div>
