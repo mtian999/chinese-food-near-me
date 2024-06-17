@@ -25,28 +25,28 @@ function NavDrawerItem({ isActive, name }: { isActive: boolean; name: string }) 
 
 export default function NavigationDrawer({ open, setOpen }: { open: boolean; setOpen: (open: boolean) => void }) {
   const t = useTranslations('Navigation');
-  const pathname = usePathname();
+  // const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(open);
-  const router = useRouter();
+  // const router = useRouter();
 
   useEffect(() => {
     setIsOpen(open);
   }, [open]);
 
-  const NavLinks = NAV_LINKS.map((item) => ({
-    ...item,
-    label: t(`${item.code}`),
-  }));
+  // const NavLinks = NAV_LINKS.map((item) => ({
+  //   ...item,
+  //   label: t(`${item.code}`),
+  // }));
 
   const onClose = () => {
     setOpen(false);
     setIsOpen(false);
   };
 
-  const onRoute = (route: string) => {
-    router.push(route);
-    onClose();
-  };
+  // const onRoute = (route: string) => {
+  //   router.push(route);
+  //   onClose();
+  // };
 
   return (
     <>
@@ -61,7 +61,7 @@ export default function NavigationDrawer({ open, setOpen }: { open: boolean; set
         )}
       >
         <div className='flex size-full flex-col gap-3 px-3 py-6'>
-          {NavLinks.map((item) => (
+          {/* {NavLinks.map((item) => (
             <button type='button' key={item.code} onClick={() => onRoute(item.href)}>
               <NavDrawerItem
                 name={item.label}
@@ -69,7 +69,7 @@ export default function NavigationDrawer({ open, setOpen }: { open: boolean; set
               />
               <span className='sr-only'>{item.label}</span>
             </button>
-          ))}
+          ))} */}
         </div>
       </div>
     </>
