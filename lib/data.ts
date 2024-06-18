@@ -29,7 +29,7 @@ export const dataList: WebNavigationListRow[] = [
     name: 'under-construction',
     title: 'Under Construction',
     content: 'Our website is under construction. Please check back soon!',
-    url: 'https://lumalabs.ai',
+    url: '/',
     imageUrl: 'https://cdn.pixabay.com/photo/2021/11/03/08/07/chongqing-6764965_1280.jpg',
     thumbnailUrl: 'https://cdn.pixabay.com/photo/2021/11/03/08/07/chongqing-6764965_640.jpg',
   },

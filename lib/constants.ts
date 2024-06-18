@@ -15,10 +15,10 @@ export const NAV_LINKS = [
 
 export const PAGE_SIZE = 20;
 
-export const FORM_PLACEHOLDER = 'https://maomaoyu.coffee/';
+export const FORM_PLACEHOLDER = 'https://recipe.maomaoyu.coffee/';
 
 export const WEBSITE_EXAMPLE =
-  '<a href="https://maomaoyu.coffee/" title="猫猫鱼 AI Tools Directory">猫猫鱼 AI Tools Diresctory</a>';
+  '<a href="https://recipe.maomaoyu.coffee/" title="猫猫鱼 AI Tools Directory">猫猫鱼 AI Tools Diresctory</a>';
 
 export const STARTUP_LIST = [
   {
@@ -430,7 +430,7 @@ export const STARTUP_LIST = [
   {
     DA: 7,
     Website: '猫猫鱼 AI',
-    URL: 'https://maomaoyu.coffee/',
+    URL: 'https://recipe.maomaoyu.coffee/',
     Price: 'Free',
     Tag: 'AI',
   },
