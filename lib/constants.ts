@@ -1,8 +1,8 @@
 export const NAV_LINKS = [
-  // {
-  //   code: 'discover',
-  //   href: '/explore',
-  // },
+  {
+    code: 'discover',
+    href: '/explore',
+  },
   // {
   //   code: 'submit',
   //   href: '/submit',

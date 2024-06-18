@@ -4,7 +4,7 @@
   },
   "Navigation": {
     "title": "MaoMaoYu AI Tools Directory",
-    "discover": "Discover AI",
+    "discover": "Discover Cuisine",
     "submit": "Submit",
     "newtools": "New Tools",
     "startup": "Startup",
@@ -119,8 +119,8 @@
   },
   "Home": {
     "title": "Chinese Food Near Me",
-    "subTitle": "Explore the World of Chinese Cooking",
-    "ai-navigate": "Chinese Food Recipes",
+    "subTitle": "Explore the World of Chinese Cooking, Enhance Your Understanding of Chinese Cuisine, Unveil the Mysteries of Chinese Cooking: Learn the Art, Try It Yourself.",
+    "ai-navigate": "Chinese Cuisine Recipes",
     "exploreMore": "Get More Recipes"
   },
   "Submit": {
@@ -151,14 +151,14 @@
     }
   },
   "Explore": {
-    "title": "Discover The Best AI Tools 2024",
-    "subTitle": "Get your favorite AI tools in MaoMaoYu AI Tools Directory. AI tools list are updated daily by GPT-4o."
+    "title": "Explore the Richness of Chinese Cuisine",
+    "subTitle": "Get your favorite Chinese Cuisine Recipes in MaoMaoYu Recipes Directory. Delve into the World of Chinese Cooking and the Stories Behind."
   },
   "Metadata": {
     "home": {
-      "title": "List of the Best & Latest AI Tools in 2024 | MaoMaoYu AI Directory",
-      "description": "MaoMaoYu AI Directory is a tool provides free AI Tools Directory. Get your favorite AI tools with MaoMaoYu AI Directory, MaoMaoYu AI Directory aims to collect all the AI tools and provide the best for users.",
-      "keywords": "AI Tools for Teachers,MaoMaoYu AI Directory"
+      "title": "Chinese Food Near Me | Enhance Your Understanding of Chinese Cuisine and Try Making It Yourself",
+      "description": "MaoMaoYu Chinese Food Recipes is a tool provides free Recipes Directory. Unveil the Mysteries of Chinese Cooking: Learn the Art, Try It Yourself.",
+      "keywords": "Chinese Food Near Me,Chinese Food Recipes,Learn the Recipes, Experience the Flavors"
     },
     "ai": {
       "titleSubfix": "MaoMaoYu AI Directory"
