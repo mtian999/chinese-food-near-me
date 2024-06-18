@@ -1,8 +1,8 @@
 # 猫猫鱼 AI Web UI
 
-这是一个由[猫猫鱼 AI工具导航站](https://recipe.maomaoyu.coffee)开源的AI导航站项目。我们的目标是让大家很容易就拥有一个属
-于自己的AI导航站，收录自己喜欢的AI工具产品。这个项目非常轻量级，维护简单，适合对AI导航站感兴趣的个人开发者，也适合对
-NextJs有兴趣的学习者，欢迎大家fork和star。
+这是一个由[猫猫鱼 AI工具导航站](https://cookfoodbook.com)开源的AI导航站项目。我们的目标是让大家很容易就拥有一个属于自己
+的AI导航站，收录自己喜欢的AI工具产品。这个项目非常轻量级，维护简单，适合对AI导航站感兴趣的个人开发者，也适合对NextJs有兴
+趣的学习者，欢迎大家fork和star。
 
 [English](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.md) | 简体中文
 
@@ -119,7 +119,7 @@ lib/data.ts -> detailList
 ### TAP4-AI-Directory
 
 全球AI工具的集合。| 收集免费的ChatGPT镜像、替代品、prompt、其他AI工具等。欲了解更多信息，请访
-问：[猫猫鱼 AI](https://recipe.maomaoyu.coffee)
+问：[猫猫鱼 AI](https://cookfoodbook.com)
 
 ### 如何在网站列表中获得您的首批用户
 
