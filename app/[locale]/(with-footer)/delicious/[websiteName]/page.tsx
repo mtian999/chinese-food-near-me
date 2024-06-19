@@ -18,16 +18,15 @@ export async function generateMetadata({
   });
   const res = await getWebNavigationDetail(websiteName);
   const DetailPageKeyword = await getTranslations('DetailPageKeyword');
-  let currentDetailPageKeyword = DetailPageKeyword(res.data?.name);
-  if (currentDetailPageKeyword === `DetailPageKeyword.${res.data?.name}`) {
-    currentDetailPageKeyword = res.data.title || '';
-  } else {
-    currentDetailPageKeyword = `${currentDetailPageKeyword}, ${res.data?.title ? res.data?.title : ''}`;
-  }
-  const currentTitle = currentDetailPageKeyword.replace(/,/g, ' |');
+  const DetailPageTitle = await getTranslations('DetailPageTitle');
+  const DetailPageDescription = await getTranslations('DetailPageDescription');
+  const pageName = res.data?.name;
+  const currentDetailPageKeyword = DetailPageKeyword(pageName);
+  const currentTitle = DetailPageTitle(pageName);
+  const currentDetailPageDescription = DetailPageDescription(pageName);
   return {
     title: `${currentTitle} | ${t('titleSubfix')}`,
-    description: res.data?.content,
+    description: `${currentDetailPageDescription || res.data?.content}`,
     keywords: currentDetailPageKeyword,
   };
 }
@@ -39,10 +38,10 @@ export default async function Page({ params: { websiteName } }: { params: { webs
   if (!data) return null;
 
   const t = await getTranslations('Startup.detail');
-  const AIDetail = await getTranslations('AIDetail');
-  let currentPageAIDetail = AIDetail(data?.name);
-  if (currentPageAIDetail === `AIDetail.${data?.name}`) {
-    currentPageAIDetail = data?.detail || '';
+  const DetailPageMain = await getTranslations('DetailPageMain');
+  let currentDetailPageMain = DetailPageMain(data?.name);
+  if (currentDetailPageMain === `DetailPageMain.${data?.name}`) {
+    currentDetailPageMain = data?.detail || '';
   }
   return (
     <div className='w-full'>
@@ -84,7 +83,7 @@ export default async function Page({ params: { websiteName } }: { params: { webs
       <Separator className='bg-[#010101]' />
       <div className='mb-5 px-3 lg:px-0'>
         <h2 className='my-5 text-2xl text-white/40 lg:my-10'>{t('introduction')}</h2>
-        <MarkdownProse markdown={currentPageAIDetail} />
+        <MarkdownProse markdown={currentDetailPageMain} />
       </div>
     </div>
   );

@@ -28,7 +28,8 @@ export const dataList: WebNavigationListRow[] = [
     id: '1792434701288771584',
     name: 'twice-cooked-pork',
     title: 'Twice-Cooked Pork',
-    content: 'Our website is under construction. Please check back soon!',
+    content:
+      'When discussing the Sichuan cuisine within the spectrum of Chinese food, it is commonly believed that Mapo Tofu and Kung Pao Chicken are the representatives of Sichuan dishes. However, the Chinese consider Twice-Cooked Pork to be the truly deserving first dish of Sichuan cuisine. Look for Chinese Food Near Me, Compare and see what differences there are.',
     url: 'https://www.youtube.com/watch?v=v72yoabCHXA',
     imageUrl: 'https://cdn.pixabay.com/photo/2017/07/31/06/22/twice-cooked-pork-2556634_1280.jpg',
     thumbnailUrl: 'https://cdn.pixabay.com/photo/2017/07/31/06/22/twice-cooked-pork-2556634_1280.jpg',
