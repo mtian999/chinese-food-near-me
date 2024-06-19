@@ -33,6 +33,15 @@ export const dataList: WebNavigationListRow[] = [
     imageUrl: 'https://cdn.pixabay.com/photo/2017/07/31/06/22/twice-cooked-pork-2556634_1280.jpg',
     thumbnailUrl: 'https://cdn.pixabay.com/photo/2017/07/31/06/22/twice-cooked-pork-2556634_1280.jpg',
   },
+  {
+    id: '1792434701288771585',
+    name: 'under-construction',
+    title: 'Under Construction',
+    content: 'Our website is under construction. Please check back soon!',
+    url: '/',
+    imageUrl: 'https://cdn.pixabay.com/photo/2021/11/03/08/07/chongqing-6764965_1280.jpg',
+    thumbnailUrl: 'https://cdn.pixabay.com/photo/2021/11/03/08/07/chongqing-6764965_640.jpg',
+  },
 ];
 
 export const detailList: WebNavigationDetailData[] = [
@@ -46,6 +55,20 @@ export const detailList: WebNavigationDetailData[] = [
     url: 'https://www.youtube.com/watch?v=v72yoabCHXA',
     imageUrl: 'https://cdn.pixabay.com/photo/2017/07/31/06/22/twice-cooked-pork-2556634_1280.jpg',
     thumbnailUrl: 'https://cdn.pixabay.com/photo/2017/07/31/06/22/twice-cooked-pork-2556634_1280.jpg',
+    collectionTime: '2024-06-17 00:00:00',
+    tagName: 'Website',
+    websiteData: '1000',
+    starRating: 5,
+    categoryName: 'SichuanCuisine',
+  },
+  {
+    name: 'under-construction',
+    title: 'Under Construction',
+    detail: 'Under Construction',
+    content: 'Under Construction',
+    url: '/',
+    imageUrl: 'https://cdn.pixabay.com/photo/2021/11/03/08/07/chongqing-6764965_1280.jpg',
+    thumbnailUrl: 'https://cdn.pixabay.com/photo/2021/11/03/08/07/chongqing-6764965_640.jpg',
     collectionTime: '2024-06-17 00:00:00',
     tagName: 'Website',
     websiteData: '1000',
