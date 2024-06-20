@@ -118,9 +118,9 @@
     "goHome": "go home"
   },
   "Home": {
-    "title": "Chinese Food Near Me - Help you choose",
-    "subTitle": "Explore the World of Chinese Cooking, Enhance Your Understanding of Chinese Cuisine, Unveil the Mysteries of Chinese Cooking. Explore the Rich Tapestry of Chinese Cooking and Its Culinary Tales. Embark on a Culinary Adventure: Chinese Cooking and Its Enchanting Lore, Learn the Art, Try It Yourself.",
-    "ai-navigate": "Chinese Cuisine Recipes",
+    "title": "Chinese Food Near Me - Help choose Chinese Food",
+    "subTitle": "Here is a diverse Chinese food menu for you to explore. Explore the World of Chinese Food, Enhance Your Understanding of Chinese Food, Unveil the Mysteries of Chinese Cooking. Explore the Rich Tapestry of Chinese Cooking and Its Culinary Tales. Embark on a Culinary Adventure: Chinese Food and Its Enchanting Lore, Learn the Art, Try It Yourself.",
+    "ai-navigate": "Chinese Food Recipes",
     "exploreMore": "Get More Recipes"
   },
   "Submit": {
@@ -152,23 +152,23 @@
   },
   "Explore": {
     "title": "Discover the delicious Chinese food near me",
-    "subTitle": "Get your favorite Chinese Cuisine Recipes in MaoMaoYu Recipes Directory. Delve into the World of Chinese Cooking and the Stories Behind. Help you choose Chinese food that better suits your taste, or try making it yourself."
+    "subTitle": "Get your favorite Chinese Food Recipes in MaoMaoYu Recipes Directory. Discover a variety of Chinese food options in this menu. Delve into the World of Chinese Food and the Stories Behind. Help you choose Chinese food that better suits your taste, or try making it yourself."
   },
   "Metadata": {
     "home": {
-      "title": "Chinese Food Near Me | Enhance Your Understanding of Chinese Cuisine and Try Making It Yourself",
+      "title": "Chinese Food Near Me | Enhance Your Understanding of Chinese Food and Try Making It Yourself",
       "description": "MaoMaoYu Chinese Food Recipes is a tool provides free Recipes Directory. Chinese food near me: The recipes here will guide you to make delicious selections from your local Chinese cuisine options. Best Chinese food near me: Help you choose. Quick Chinese food dinner ideas. Chinese food history and cultural significance. Authentic Chinese food cooking techniques. Chinese food cooking classes online. ",
-      "keywords": "Chinese Food Near Me, Chinese Food Recipes, Learn the Recipes, Experience the Flavors, Chinese Cooking and Its Culinary Tales"
+      "keywords": "Chinese Food Near Me, Chinese Food Recipes, Learn the Recipes, Experience the Flavors, Chinese Food and Its Culinary Tales"
     },
     "ai": {
       "titleSubfix": "Authentic Chinese food | Chinese Food Story | Learn to distinguish the Chinese Food Near Me | Chinese Food Near Me: Learn how to make your favorite dishes | MaoMaoYu Chinese Food Recipes"
     },
     "explore": {
-      "title": "Chinese Food Near Me | Explore the Rich Tapestry of Chinese Cooking and Its Culinary Tales",
+      "title": "Chinese Food Near Me | Explore the Rich Tapestry of Chinese Food and Its Culinary Tales",
       "titlePrefix": "MaoMaoYu Chinese Food Recipes Explore",
       "titleSuffix": "MaoMaoYu Chinese Food Recipes",
-      "description": "MaoMaoYu Chinese Food Recipes is a tool provides free Recipes Directory. Discover the delicious Chinese food near me. Discover the Depths of Chinese Cuisine: Stories and Recipes, Unveil the Mysteries of Chinese Cooking: Learn the Art, Try It Yourself.",
-      "keywords": "Chinese Food Near Me, Chinese Food Recipes, Discover the Depths of Chinese Cuisine: Stories and Recipes, Chinese Cooking and Its Culinary Tales"
+      "description": "MaoMaoYu Chinese Food Recipes is a tool provides free Recipes Directory. Discover the delicious Chinese food near me. Discover the Depths of Chinese Food: Stories and Recipes, Unveil the Mysteries of Chinese Food: Learn the Art, Try It Yourself.",
+      "keywords": "Chinese Food Near Me, Chinese Food Recipes, Discover the Depths of Chinese Cuisine: Stories and Recipes, Chinese Food and Its Culinary Tales"
     },
     "submit": {
       "title": "Submit your AI tool and get Get Traffic | MaoMaoYu AI Directory"
