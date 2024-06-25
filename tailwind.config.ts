@@ -13,6 +13,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(90deg, #E53E3E, #FF7F50 40%, #FF5F6D)',
+      },
       colors: {
         'tap4-black': '#ff7f50',
         'dark-bg': '#1E1B24',
